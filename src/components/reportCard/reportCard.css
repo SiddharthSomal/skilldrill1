@@ -1,0 +1,78 @@
+
+  .cards {
+    display: flex;
+    height:100%;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding: 2rem;
+
+  }
+  
+  ul{
+    list-style-type: none
+  }
+  .Reportcard {
+    width:23vw;
+    padding: 1rem;
+    margin: 0.6rem;
+    border: 1px solid #1493d3;
+    box-shadow: -1px 1px 3px 3px #1493d3b8;
+    border-radius: 20px;
+  }
+
+  .header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .header h3 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+    margin:10px 10px 3px 10px;  
+  }
+  .header h3,p {
+    position: relative;
+    top: 18px;
+    left: 10px;
+    margin-left:10px;  
+  }
+ 
+  .Reportcard:hover {
+    color: #fff;
+    transform: scale(1.15);
+    transition: all 0.5s ease;
+    background: linear-gradient(#1493d3,#3d5a80,#293241);
+    box-shadow: -1px 2px 7px 7px #1493d3b8;
+    margin: 1.7rem;
+    /* width:25vw; */
+  }
+  .icon {
+    width: 75px;
+    border-radius: 100%;
+    transition: 750ms;
+  }
+  .icon:hover {
+    transform: scale(1.2);
+  }
+  .Reportcard .card-title {
+      font-size: 1.2rem;
+      margin-top: 13px;
+  }
+  .card-sub {
+      font-size: 1rem;
+      margin-top: -40px;
+  }
+ 
+  
+  .expression{
+    width:50vw;
+    height:30vh;
+    margin: 1rem;
+    color:white;
+  
+  }
+  .pieChart{
+    color:white!important;
+  }

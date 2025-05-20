@@ -1,0 +1,15 @@
+.caro-pic{
+    width:100vmax;
+    height:87vmin;
+}
+.caro{
+    width:100vmax;
+    height:100vmin;
+    display: flex;
+    justify-content: center;
+    color:#BFCFD5;
+}
+.unique-img{
+    width:100px;
+    height:100px;
+}
