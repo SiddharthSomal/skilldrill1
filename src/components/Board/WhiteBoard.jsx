@@ -10,7 +10,7 @@ function WhiteBoard({socketRef, canvasRef, roomId, prevState}) {
   const [erase, setErase] = useState(false);
   const ctx = useRef(null);
   const timeout = useRef(null);
-  const [cursor, setCursor] = useState("default");
+  const [cursor, setCursor] = useState("default"); 
 
   useEffect(() => {
     const canvas = canvasRef.current;

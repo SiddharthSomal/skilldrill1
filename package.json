@@ -30,7 +30,7 @@
     "codemirror": "5.65.8",
     "codemirror-theme-github": "^1.0.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.5.0",
     "express": "^4.21.2",
     "face-api.js": "^0.22.2",
     "mongodb": "^4.17.2",
